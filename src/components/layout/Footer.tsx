@@ -32,7 +32,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <ChefHat className="w-6 h-6 text-gold-deep" />
               <div>
-                <span className="font-display font-semibold text-lg text-ivory">Golden Lotus</span>
+                <span className="font-display font-semibold text-lg text-ivory">The Pearl</span>
                 <span className="block font-label font-medium text-[10px] tracking-[0.15em] uppercase text-text-muted">
                   Pakistani Restaurant
                 </span>
@@ -44,7 +44,7 @@ export default function Footer() {
             <div className="space-y-2 text-sm">
               <div className="flex items-center gap-2 text-text-muted">
                 <MapPin className="w-4 h-4 text-gold-light" />
-                <span>zone 39 Doha Qatar</span>
+                <span>Zone 39 Doha Qatar</span>
               </div>
               <div className="flex items-center gap-2 text-text-muted">
                 <Phone className="w-4 h-4 text-gold-light" />

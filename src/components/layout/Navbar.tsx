@@ -39,7 +39,7 @@ export default function Navbar() {
   return (
     <>
       <motion.nav
-        className="fixed top-0 left-0 right-0 z-[100] h-[72px] flex items-center"
+        className="sticky top-0 left-0 right-0 z-[100] h-[72px] flex items-center"
         initial={{ backgroundColor: 'rgba(250, 246, 240, 0)' }}
         animate={{
           backgroundColor: scrolled ? 'rgba(250, 246, 240, 0.92)' : 'rgba(250, 246, 240, 0)',
@@ -97,7 +97,7 @@ export default function Navbar() {
             </div>
 
             {/* Cart */}
-            <Link to="/menu" className="relative p-2 text-text-primary hover:text-gold-deep transition-colors">
+            <Link to="/menu" className="relative p-2 text-text-secondary hover:text-gold-deep transition-colors">
               <ShoppingCart className="w-5 h-5" />
               {itemCount() > 0 && (
                 <span className="absolute -top-0.5 -right-0.5 w-4 h-4 bg-saffron text-white text-[10px] font-label font-semibold rounded-full flex items-center justify-center">

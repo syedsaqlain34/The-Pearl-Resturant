@@ -124,7 +124,7 @@ export const menuItems: MenuItem[] = [
     id: "thali-special",
     name: "Golden Thali",
     category: "entrees",
-    description: "Complete Indian meal with rice, three curries, naan, raita, and dessert.",
+    description: "Complete Pakistani meal with rice, three curries, naan, raita, and dessert.",
     price: 22.99,
     spiceLevel: 1,
     isVeg: true,
@@ -163,14 +163,14 @@ export const hours = [
 export const testimonials = [
   {
     id: 1,
-    name: "Sarah M.",
+    name: "Syed Saqlain.",
     text: "The butter chicken here is absolutely divine. Rich, creamy, and perfectly spiced. Best Pakistai food in The Pearl!",
     rating: 5,
   },
   {
     id: 2,
     name: "Ali Khan.",
-    text: "Golden Lotus never disappoints. The tandoori platter is a feast for the senses. Fast pickup too — ready in 15 minutes!",
+    text: "The Pearl Restaurant never disappoints. The tandoori platter is a feast for the senses. Fast pickup too — ready in 15 minutes!",
     rating: 5,
   },
   {
@@ -181,7 +181,7 @@ export const testimonials = [
   },
   {
     id: 4,
-    name: "Syed Saqlain.",
+    name: "Sarah R.",
     text: "Great ambiance, friendly staff, and the biryani is out of this world. Our new favorite date night spot!",
     rating: 4,
   },
